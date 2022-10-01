@@ -1,7 +1,5 @@
 # Tic-Tac-Toe
 
-<p align="center"> This project...</p>
-
 # Content
 
 <!--cont-start-->
@@ -41,13 +39,13 @@
 * The match will end when a player or machine reaches 3 points;
 * After that, the program returns to the main menu.
 ### Reason
-* This project was requested as an assessment of the Python subject during the second semester of 2022 of the <a href="https://www.fiap.com.br/?msclkid=21318f39943217618b84ec01f5bc0435">FIAP</a> systems analysis and development course.
+* This project was requested as an assessment of the Python subject during the second semester of 2022 of the [FIAP](https://www.fiap.com.br/?msclkid=21318f39943217618b84ec01f5bc0435) systems analysis and development course.
 
 ### Goal
 * The project aimed to work with data manipulation through functions, lists and list of lists (arrays) in Python.
 
 ## Content
-* The program consists of a menu that allows you to choose between 3 options: <a href="#PvP">Player vs Player</a>, <a href="#PvP">Player vs Machine (easy)</a> and Quit;
+* The program consists of a menu that allows you to choose between 3 options: <a href="#Player vs Player">Player vs Player</a>, <a href="#Player vs Machine (easy)">Player vs Machine (easy)</a> and Quit;
 * For the purpose, a mix of <a href="#Mandatory">mandatory</a> and <a href="#Personal">personal</a> functions were used.
 
 ### Gamemodes
