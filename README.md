@@ -1,33 +1,30 @@
 # Tic-Tac-Toe
 
 # Content
+* [About](#about)
+    * [Reason](#Reason)
+    * [Goal](#Goal)
+    * [Proposed Rules](#Proposed Rules)
+* [Content](#Content)
+    * [Gamemodes](#Gamemodes)
+        * [Player vs Player](#Player-vs-Player)
+        * [Player vs Machine (easy)](#Player-vs-Machine-(easy))
+    * [Mandatory](#Mandatory)
+        * [inicializarTabuleiro](#inicializarTabuleiro)
+        * [imprimirTabuleiro](#imprimirTabuleiro )
+        * [imprimeMenuPrincipal](#imprimeMenuPrincipal)
+        * [leiaCoordenadaLinha](#leiaCoordenadaLinha)
+        * [leiaCoordenadaColuna](#leiaCoordenadaColuna)
+        * [imprimePontuacao](#imprimePontuacao)
+        * [posicaoValida](#posicaoValida)
+        * [verificaVencedor](#verificaVencedor)
+        * [verificaVelha](#verificaVelha)
+        * [modoJogador](#modoJogador)
+        * [jogar](#jogar)
+        * [jogadaUsuario](#jogadaUsuario)    
+    * [Personal](#Personal)
+* [More](#more)    
 
-<!--cont-start-->
-    * [About](#about)
-        * [Reason](#Reason)
-        * [Goal](#Goal)
-        * [Proposed Rules](#Proposed Rules)
-    * [Content](#Content)
-        * [Gamemodes](#Gamemodes)
-            * [Player vs Player](#Player vs Player)
-            * [Player vs Machine (easy)](#Player vs Machine (easy))
-        * [Mandatory](#Mandatory)
-            * [inicializarTabuleiro](#inicializarTabuleiro)
-            * [imprimirTabuleiro](#imprimirTabuleiro )
-            * [imprimeMenuPrincipal](#imprimeMenuPrincipal)
-            * [leiaCoordenadaLinha](#leiaCoordenadaLinha)
-            * [leiaCoordenadaColuna](#leiaCoordenadaColuna)
-            * [imprimePontuacao](#imprimePontuacao)
-            * [posicaoValida](#posicaoValida)
-            * [verificaVencedor](#verificaVencedor)
-            * [verificaVelha](#verificaVelha)
-            * [modoJogador](#modoJogador)
-            * [jogar](#jogar)
-            * [jogadaUsuario](#jogadaUsuario)
-        * [Personal](#Personal)
-
-    * [More](#more)
-<!--cont-end-->
 
 ## About
 * The board must be a 3X3 matrix;
@@ -45,8 +42,8 @@
 * The project aimed to work with data manipulation through functions, lists and list of lists (arrays) in Python.
 
 ## Content
-* The program consists of a menu that allows you to choose between 3 options: <a href="#Player vs Player">Player vs Player</a>, <a href="#Player vs Machine (easy)">Player vs Machine (easy)</a> and Quit;
-* For the purpose, a mix of <a href="#Mandatory">mandatory</a> and <a href="#Personal">personal</a> functions were used.
+* The program consists of a menu that allows you to choose between 3 options: [Player vs Player](#Player-vs-Player), [Player vs Machine (easy)](#Player-vs-Machine-(easy));
+* For this purpose, a mix of [mandatory](#Mandatory) and [personal](#Personal) functions were used.
 
 ### Gamemodes
 * List of available gamemodes
@@ -59,7 +56,7 @@
 * As it is the easy mode, the machine has no strategy, that is, it will play randomly in the positions that are available on the board.
 <h4 align="center">
         🚧 Functionality Under construction 🚧
-</h4>-->
+</h4>
 
 ### Mandatory
 * List of mandatory functions
@@ -93,7 +90,7 @@
 * Function that checks if the game ended in a draw.
 
 #### modoJogador
-* Function that performs all operations for <a href="#Player vs Player">Player vs Player</a>.
+* Function that performs all operations for [Player vs Player](#Player-vs-Player).
 
 #### jogar
 * Function that receives row and column coordinates and exclusively fills the board;
@@ -102,7 +99,7 @@
 * The played function only assigns "X" or "O" on the board.
 
 #### jogadaUsuario
-* Function that receives the player's coordinates and necessarily calls the <a href="#jogar">jogar</a> function to insert it on the board.
+* Function that receives the player's coordinates and necessarily calls the [jogar](#jogar) function to insert it on the board.
 
 
 
