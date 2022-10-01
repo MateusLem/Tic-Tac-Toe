@@ -7,7 +7,7 @@
 * [Content](#Content)
     * [Gamemodes](#Gamemodes)
         * [Player vs Player](#Player-vs-Player)
-        * [Player vs Machine (easy)](#Player-vs-Machine-(easy))
+        * [Player vs Machine (easy)](#Player-vs-Machine-easy)
     * [Mandatory](#Mandatory)
         * [inicializarTabuleiro](#inicializarTabuleiro)
         * [imprimirTabuleiro](#imprimirTabuleiro)
@@ -41,7 +41,7 @@
 * The project aimed to work with data manipulation through functions, lists and list of lists (arrays) in Python.
 
 ## Content
-* The program consists of a menu that allows you to choose between 3 options: [Player vs Player](#Player-vs-Player), [Player vs Machine (easy)](#Player-vs-Machine-(easy));
+* The program consists of a menu that allows you to choose between 3 options: [Player vs Player](#Player-vs-Player), [Player vs Machine (easy)](#Player-vs-Machine-easy);
 * For this purpose, a mix of [mandatory](#Mandatory) and [personal](#Personal) functions were used.
 
 ### Gamemodes
@@ -50,7 +50,7 @@
 #### Player-vs-Player
 * In this mode, the player must play against another player.
 
-#### Player-vs-Machine-(easy)
+#### Player-vs-Machine-easy
 * In this mode, the player must play against the machine;
 * As it is the easy mode, the machine has no strategy, that is, it will play randomly in the positions that are available on the board.
 <h4 align="center">
