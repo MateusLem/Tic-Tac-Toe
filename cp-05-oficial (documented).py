@@ -356,6 +356,28 @@ def modoJogador(p1, p2, rodada, jogos, matriz):
                         rodada += 1
                 matriz, rodada = reset(matriz, rodada, p1, p2, ver2)
 
+def restart(p1,p2,rodada,matriz):
+    '''
+    Função que redefine os valores de "p1", "p2", "rodada" e "matriz"
+    -------------------------------------------------------
+    Parâmetros:
+    - Utiliza a matriz "matriz" para reinicializa-lá
+    - Utiliza a variável "rodada" para reinicializa-lá
+    - Utiliza a variável "p1" (jogador 1) para reinicializa-lá
+    - Utiliza a variável "p2" (jogador 2) para reinicializa-lá
+    -------------------------------------------------------
+    Retornos:
+    - Retorna "p1" como o novo valor de "p1"
+    - Retorna "p2" como o novo valor de "p2"
+    - Retorna "rodada" como o novo valor de "rodada"
+    - Retorna "matriz" como o novo valor de "matriz"
+    '''
+    p1=0
+    p2=0
+    rodada = 2
+    matriz=inicializarTabuleiro()
+    return p1,p2,rodada,matriz
+
 def programa():
     '''
     Função principal
@@ -366,9 +388,9 @@ def programa():
     Retornos:
     - Não retorna valores
     '''
-    #Variáveis
-    p1 = 0
-    p2 = 0
+
+    p1=0
+    p2=0
     rodada = 2
 
     #Controles bool
@@ -389,9 +411,12 @@ def programa():
         # Caso 1
         if r == 1:
             modoJogador(p1, p2, rodada, jogos, matriz)
+            p1,p2,rodada,matriz=restart(p1,p2,rodada,matriz)
+            
         # Caso 2
         elif r == 2:
             print("\nEssa função ainda está em desenvolvimento\n")
+            p1,p2,rodada=restart()
 
         # Caso 3
         elif r == 3:

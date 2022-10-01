@@ -54,7 +54,7 @@
 * In this mode, the player must play against the machine;
 * As it is the easy mode, the machine has no strategy, that is, it will play randomly in the positions that are available on the board.
 <h4 align="center">
-        🚧 Functionality Under construction 🚧
+        🚧 Functionality Under Construction 🚧
 </h4>
 
 ### Mandatory
@@ -89,7 +89,7 @@
 * Function that checks if the game ended in a draw.
 
 #### modoJogador
-* Function that performs all operations for [Player vs Player](#Player-vs-Player).
+* Function that performs all operations for [Player vs Player](#Player-vs-Player) gamemode.
 
 #### jogar
 * Function that receives row and column coordinates and exclusively fills the board;
