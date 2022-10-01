@@ -1,4 +1,4 @@
-# Challenge
+# Checkpoint 05
 
 def inicializarTabuleiro():
     '''
@@ -71,7 +71,7 @@ def imprimePontuacao(p1, p2):
 
 def out(matriz, x, y):
     '''
-     Função que trata o erro de OutOfRange
+    Função que trata o erro de OutOfRange
     -------------------------------------------------------
     Parâmetros:
     - Utiliza a variável "x" para identificar o eixo x
@@ -294,16 +294,16 @@ def verificaVelha(matriz):
         return "end"
 
 
-def reset(matriz,rodada,p1,p2,ver2):
+def reset(matriz,rodada,p1,p2,ver):
     '''
     Função que reseta o jogo
     -------------------------------------------------------
     Parâmetros:
     - Utiliza a matriz "matriz" para criar uma nova matriz
     - Utiliza a variável "rodada" para decidir qual jogador começará
-    - Utiliza a variável "p1" (jogador 1) alterar a rodada
-    - Utiliza a variável "p2" (jogador 2) alterar a rodada
-    - Utiliza a variável "ver2" para identificar se o jogo anterior terminou em velha
+    - Utiliza a variável "p1" alterar a rodada
+    - Utiliza a variável "p2" alterar a rodada
+    - Utiliza a variável "ver" para identificar se o jogo anterior terminou em velha
     -------------------------------------------------------
     Retornos:
     - Retorna "matriz" como uma nova matriz
@@ -312,13 +312,13 @@ def reset(matriz,rodada,p1,p2,ver2):
     matriz = inicializarTabuleiro()
 
     if (p1+p2)%2==0:
-       if ver2=="end":
+       if ver=="end":
            rodada=1
        else:
            rodada=2
 
     else:
-       if ver2=="end":
+       if ver=="end":
            rodada=2
        else:
            rodada=1
@@ -343,18 +343,17 @@ def modoJogador(p1, p2, rodada, jogos, matriz):
                 while jogos:
                     x, y = coordenadas()
                     jogadaUsuario(rodada, matriz, x, y)
-                    ver = verificaVencedor(matriz)
-                    ver2 = verificaVelha(matriz)
-                    if ver == "end":
+                    ver = verificaVelha(matriz)
+                    if verificaVencedor(matriz) == "end":
                         p1, p2 = mostraVencedor(rodada, p1, p2)
                         imprimePontuacao(p1, p2)
                         break
-                    elif ver2 == "end":
+                    elif ver == "end":
                         imprimePontuacao(p1,p2)
                         break
                     else:
                         rodada += 1
-                matriz, rodada = reset(matriz, rodada, p1, p2, ver2)
+                matriz, rodada = reset(matriz, rodada, p1, p2, ver)
 
 def restart(p1,p2,rodada,matriz):
     '''
@@ -380,7 +379,7 @@ def restart(p1,p2,rodada,matriz):
 
 def programa():
     '''
-    Função principal
+    Função do programa principal
     -------------------------------------------------------
     Parâmetros:
     - Não há parâmetros
@@ -406,20 +405,19 @@ def programa():
 
     #Programa
     while hub:
-        r = imprimeMenuPrincipal()
 
         # Caso 1
-        if r == 1:
+        if imprimeMenuPrincipal() == 1:
             modoJogador(p1, p2, rodada, jogos, matriz)
             p1,p2,rodada,matriz=restart(p1,p2,rodada,matriz)
             
         # Caso 2
-        elif r == 2:
+        elif imprimeMenuPrincipal() == 2:
             print("\nEssa função ainda está em desenvolvimento\n")
             p1,p2,rodada=restart()
 
         # Caso 3
-        elif r == 3:
+        elif imprimeMenuPrincipal() == 3:
             print("Programa Encerrado")
             hub = False
 
