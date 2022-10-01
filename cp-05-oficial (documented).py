@@ -185,7 +185,7 @@ def coordenadas():
 
 def jogar(rodada, matriz, x, y):
     '''
-    Função que valida as posições e chama a função 'jogar'
+    A  função  apenas  atribui  "X"  ou  "O"  no tabuleiro
     -------------------------------------------------------
     Parâmetros:
     - Utiliza a matriz "matriz" para posicionar a jogada
@@ -325,6 +325,37 @@ def reset(matriz,rodada,p1,p2,ver2):
 
     return matriz,rodada
 
+def modoJogador(p1, p2, rodada, jogos, matriz):
+    '''
+    Função que efetua todas as ações do modo Jogador x Jogador
+    -------------------------------------------------------
+    Parâmetros:
+    - Utiliza a matriz "matriz" para criar uma nova matriz e passa-lá como parâmetro
+    - Utiliza a variável "rodada" para decidir qual jogador começará, quem jogar
+    - Utiliza a variável "p1" (jogador 1) identificar o fim do jogo e passa-lá como parâmetro
+    - Utiliza a variável "p2" (jogador 2) identificar o fim do jogo e passa-lá como parâmetro
+    - Utiliza a variável "jogos" para continuar as partidas, enquanto o jogo não for decidido
+    -------------------------------------------------------
+    Retornos:
+    - Não retorna valores
+    '''
+    while p1 < 3 and p2 < 3:
+                while jogos:
+                    x, y = coordenadas()
+                    jogadaUsuario(rodada, matriz, x, y)
+                    ver = verificaVencedor(matriz)
+                    ver2 = verificaVelha(matriz)
+                    if ver == "end":
+                        p1, p2 = mostraVencedor(rodada, p1, p2)
+                        imprimePontuacao(p1, p2)
+                        break
+                    elif ver2 == "end":
+                        imprimePontuacao(p1,p2)
+                        break
+                    else:
+                        rodada += 1
+                matriz, rodada = reset(matriz, rodada, p1, p2, ver2)
+
 def programa():
     '''
     Função principal
@@ -357,23 +388,7 @@ def programa():
 
         # Caso 1
         if r == 1:
-            while p1 < 3 and p2 < 3:
-                while jogos:
-                    x, y = coordenadas()
-                    jogadaUsuario(rodada, matriz, x, y)
-                    ver = verificaVencedor(matriz)
-                    ver2 = verificaVelha(matriz)
-                    if ver == "end":
-                        p1, p2 = mostraVencedor(rodada, p1, p2)
-                        imprimePontuacao(p1, p2)
-                        break
-                    elif ver2 == "end":
-                        imprimePontuacao(p1,p2)
-                        break
-                    else:
-                        rodada += 1
-                matriz, rodada = reset(matriz, rodada, p1, p2, ver2)
-
+            modoJogador(p1, p2, rodada, jogos, matriz)
         # Caso 2
         elif r == 2:
             print("\nEssa função ainda está em desenvolvimento\n")
