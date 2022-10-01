@@ -4,14 +4,13 @@
 * [About](#about)
     * [Reason](#Reason)
     * [Goal](#Goal)
-    * [Proposed Rules](#Proposed Rules)
 * [Content](#Content)
     * [Gamemodes](#Gamemodes)
         * [Player vs Player](#Player-vs-Player)
         * [Player vs Machine (easy)](#Player-vs-Machine-(easy))
     * [Mandatory](#Mandatory)
         * [inicializarTabuleiro](#inicializarTabuleiro)
-        * [imprimirTabuleiro](#imprimirTabuleiro )
+        * [imprimirTabuleiro](#imprimirTabuleiro)
         * [imprimeMenuPrincipal](#imprimeMenuPrincipal)
         * [leiaCoordenadaLinha](#leiaCoordenadaLinha)
         * [leiaCoordenadaColuna](#leiaCoordenadaColuna)
@@ -48,10 +47,10 @@
 ### Gamemodes
 * List of available gamemodes
 
-#### Player vs Player
+#### Player-vs-Player
 * In this mode, the player must play against another player.
 
-#### Player vs Machine (easy)
+#### Player-vs-Machine-(easy)
 * In this mode, the player must play against the machine;
 * As it is the easy mode, the machine has no strategy, that is, it will play randomly in the positions that are available on the board.
 <h4 align="center">
