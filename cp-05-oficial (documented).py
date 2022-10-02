@@ -406,20 +406,21 @@ def programa():
 
     #Programa
     while hub:
-
+        r = imprimeMenuPrincipal()
+        
         # Caso 1
-        if imprimeMenuPrincipal() == 1:
+        if r == 1:
             modoJogador(p1, p2, rodada, jogos, matriz)
             p1,p2,rodada,matriz=restart(p1,p2,rodada,matriz)
             
         # Caso 2
-        elif imprimeMenuPrincipal() == 2:
+        elif r == 2:
             print("\nEssa função ainda está em desenvolvimento\n")
-            p1,p2,rodada=restart()
+            p1,p2,rodada,matriz=restart(p1,p2,rodada,matriz)
 
         # Caso 3
-        elif imprimeMenuPrincipal() == 3:
-            print("Programa Encerrado")
+        elif r == 3:
+            print("\nPrograma Encerrado")
             hub = False
 
         # Caso Inválido
