@@ -294,7 +294,7 @@ def verificaVelha(matriz):
         return "end"
 
 
-def reset(matriz,rodada,p1,p2,ver):
+def reset(matriz,rodada,p1,p2,ver2):
     '''
     Função que reseta o jogo
     -------------------------------------------------------
@@ -303,7 +303,7 @@ def reset(matriz,rodada,p1,p2,ver):
     - Utiliza a variável "rodada" para decidir qual jogador começará
     - Utiliza a variável "p1" alterar a rodada
     - Utiliza a variável "p2" alterar a rodada
-    - Utiliza a variável "ver" para identificar se o jogo anterior terminou em velha
+    - Utiliza a variável "ver2" para identificar se o jogo anterior terminou em velha
     -------------------------------------------------------
     Retornos:
     - Retorna "matriz" como uma nova matriz
@@ -312,13 +312,13 @@ def reset(matriz,rodada,p1,p2,ver):
     matriz = inicializarTabuleiro()
 
     if (p1+p2)%2==0:
-       if ver=="end":
+       if ver2=="end":
            rodada=1
        else:
            rodada=2
 
     else:
-       if ver=="end":
+       if ver2=="end":
            rodada=2
        else:
            rodada=1
@@ -343,17 +343,18 @@ def modoJogador(p1, p2, rodada, jogos, matriz):
                 while jogos:
                     x, y = coordenadas()
                     jogadaUsuario(rodada, matriz, x, y)
-                    ver = verificaVelha(matriz)
-                    if verificaVencedor(matriz) == "end":
+                    ver1 = verificaVencedor(matriz)
+                    ver2 = verificaVelha(matriz)
+                    if ver1 == "end":
                         p1, p2 = mostraVencedor(rodada, p1, p2)
                         imprimePontuacao(p1, p2)
                         break
-                    elif ver == "end":
+                    if ver2 == "end":
                         imprimePontuacao(p1,p2)
                         break
                     else:
                         rodada += 1
-                matriz, rodada = reset(matriz, rodada, p1, p2, ver)
+                matriz, rodada = reset(matriz, rodada, p1, p2, ver2)
 
 def restart(p1,p2,rodada,matriz):
     '''
