@@ -31,7 +31,8 @@
 * [More](#More)
     * [Tecnologies](#Tecnologies)
     * [Original Language](#Original-Language)
-    * [Latest Update](#Latest-Update)   
+    * [Latest Update](#Latest-Update) 
+* [Contact Me](#Contact-Me)
 
 # About
 * The board must be a 3X3 matrix;
@@ -118,6 +119,7 @@ More information about his project:
 * Oct/01/2022
 ---
 Made with tenacity by Mateus Leme
+## Contact-Me
 <h3>
 <img alt="LinkedIn" title="LinkedIn" src="./github/img/linkedin.png" width="15vw" height="15vh">
 <a href="https://www.linkedin.com/in/mateus-da-costa-leme-35a5ab235/">LinkedIn</a>
