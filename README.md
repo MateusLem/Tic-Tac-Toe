@@ -119,7 +119,7 @@ More information about his project:
 ---
 Made with tenacity by Mateus Leme
 <h3>
-<img alt="LinkedIn" title="LinkedIn" src="./github/img/linkedin.png" width="2%" height="2%">
+<img alt="LinkedIn" title="LinkedIn" src="./github/img/linkedin.png" width="15vw" height="15vh">
 <a href="https://www.linkedin.com/in/mateus-da-costa-leme-35a5ab235/">LinkedIn</a>
 </h3>
 
