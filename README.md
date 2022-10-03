@@ -1,8 +1,7 @@
-<style>
-#construct {
-    text-align: center;
-}
+<style src='./github/css/style.css'>
+    
 </style>
+
 
 # Tic-Tac-Toe
 Project to make a Tic Tac Toe game using Python
@@ -169,8 +168,8 @@ More information about his project:
 * <img alt="Gmail" title="gmail" src="./github/img/gmail.png" width="27vw" height="17vh"> <button onclick="copiarTexto()">Mateus da Costa Leme</button>
 
 <script>
-    let copiarTexto = () =>{
-        
+    {let copiarTexto = () =>{
+
         //captura o elemento input
         const inputTest = document.querySelector("mateusdacostaleme@gmail.com");
 
@@ -180,7 +179,7 @@ More information about his project:
         //executa o comando copy
         //aqui é feito o ato de copiar para a area de trabalho com base na seleção
         document.execCommand('copy');
-    };
+    };}
 </script>
 
 <!--<h4 align="center">
