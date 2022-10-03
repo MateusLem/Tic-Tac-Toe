@@ -1,5 +1,6 @@
 # Tic-Tac-Toe
 Project to make a Tic Tac Toe game using Python
+<br><br>
 # Project
 
 <details>
@@ -62,6 +63,7 @@ Project to make a Tic Tac Toe game using Python
 * [LinkedIn](#LinkedIn)
 * [Email](#Email)
 </details>
+<br>
 
 # About
 * The board must be a 3X3 matrix;
@@ -77,6 +79,8 @@ Project to make a Tic Tac Toe game using Python
 * This project was requested as an assessment of the Python subject during the second semester of 2022 of the [FIAP](https://www.fiap.com.br/?msclkid=21318f39943217618b84ec01f5bc0435) systems analysis and development course.
 ## Goal
 * The project aimed to work with data manipulation through functions, lists and list of lists (arrays) in Python.
+<br><br>
+
 # Content
 * The program consists of a menu that allows you to choose between 3 options: [Player vs Player](#Player-vs-Player), [Player vs Machine (easy)](#Player-vs-Machine-easy);
 * For this purpose, a mix of [mandatory](#Mandatory) and [personal](#Personal) functions were used.
@@ -120,7 +124,6 @@ List of mandatory functions:
 * The played function only assigns "X" or "O" on the board.
 ### jogadaUsuario
 * Function that receives the player's coordinates and necessarily calls the [jogar](#jogar) function to insert it on the board.
-
 ## Personal
 List of personal functions:
 ### out
@@ -135,6 +138,7 @@ List of personal functions:
 * Function that resets the values of "p1", "p2", "rodada" and "matriz" at the end of the game.
 ### programa
 * Main program function.
+<br><br>
 
 # More
 More information about his project:
@@ -147,7 +151,7 @@ More information about his project:
 ## Latest-Update
 * Oct/01/2022
 ---
-Made with tenacity by Mateus Leme
+<br>Made with tenacity by Mateus Leme
 
 ## Contact-Me
 
