@@ -161,7 +161,7 @@ More information about his project:
 * <img alt="LinkedIn" title="linkedIn" src="./github/img/linkedin.png" width="20vw" height="20vh"> <a href="https://www.linkedin.com/in/mateus-da-costa-leme-35a5ab235/">Mateus da Costa Leme</a>
 
 ### Email
-* <img alt="Gmail" title="gmail" src="./github/img/gmail.png" width="27vw" height="17vh"> <a href="mateusdacostaleme@gmail.com">Mateus da Costa Leme</a>
+* <img alt="Gmail" title="gmail" src="./github/img/gmail.png" width="27vw" height="17vh"> mateusdacostaleme@gmail.com
 
 <!--<h4 align="center">
         🚧 READ.ME Under construction 🚧
