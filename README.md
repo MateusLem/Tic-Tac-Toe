@@ -92,7 +92,7 @@ List of available gamemodes:
 ### Player-vs-Machine-easy
 * In this mode, the player must play against the machine;
 * As it is the easy mode, the machine has no strategy, that is, it will play randomly in the positions that are available on the board.
-<h2 align="center">🚧 Functionality Under Construction 🚧</h2>
+<h3 align="center">🚧 Functionality Under Construction 🚧</h3>
 
 ## Mandatory
 List of mandatory functions:
