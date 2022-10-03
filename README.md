@@ -1,7 +1,3 @@
-<style src='./github/css/style.css'>
-    
-</style>
-
 
 # Tic-Tac-Toe
 Project to make a Tic Tac Toe game using Python
@@ -98,7 +94,7 @@ List of available gamemodes:
 ### Player-vs-Machine-easy
 * In this mode, the player must play against the machine;
 * As it is the easy mode, the machine has no strategy, that is, it will play randomly in the positions that are available on the board.
-<h3 id="construct">🚧 Functionality Under Construction 🚧</h3>
+<h3 align="center">🚧 Functionality Under Construction 🚧</h3>
 
 ## Mandatory
 List of mandatory functions:
@@ -165,22 +161,7 @@ More information about his project:
 * <img alt="LinkedIn" title="linkedIn" src="./github/img/linkedin.png" width="20vw" height="20vh"> <a href="https://www.linkedin.com/in/mateus-da-costa-leme-35a5ab235/">Mateus da Costa Leme</a>
 
 ### Email
-* <img alt="Gmail" title="gmail" src="./github/img/gmail.png" width="27vw" height="17vh"> <button onclick="copiarTexto()">Mateus da Costa Leme</button>
-
-<script>
-    {let copiarTexto = () =>{
-
-        //captura o elemento input
-        const inputTest = document.querySelector("mateusdacostaleme@gmail.com");
-
-        //seleciona todo o texto do elemento
-        inputTest.select();
-
-        //executa o comando copy
-        //aqui é feito o ato de copiar para a area de trabalho com base na seleção
-        document.execCommand('copy');
-    };}
-</script>
+* <img alt="Gmail" title="gmail" src="./github/img/gmail.png" width="27vw" height="17vh"> <a href="mateusdacostaleme@gmail.com">Mateus da Costa Leme</a>
 
 <!--<h4 align="center">
         🚧 READ.ME Under construction 🚧
