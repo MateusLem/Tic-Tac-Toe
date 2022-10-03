@@ -1,38 +1,67 @@
 # Tic-Tac-Toe
 
-# Content
-* [About](#about)
-    * [Reason](#Reason)
-    * [Goal](#Goal)
-* [Content](#Content)
-    * [Gamemodes](#Gamemodes)
-        * [Player vs Player](#Player-vs-Player)
-        * [Player vs Machine (easy)](#Player-vs-Machine-easy)
-    * [Mandatory](#Mandatory)
-        * [inicializarTabuleiro](#inicializarTabuleiro)
-        * [imprimirTabuleiro](#imprimirTabuleiro)
-        * [imprimeMenuPrincipal](#imprimeMenuPrincipal)
-        * [leiaCoordenadaLinha](#leiaCoordenadaLinha)
-        * [leiaCoordenadaColuna](#leiaCoordenadaColuna)
-        * [imprimePontuacao](#imprimePontuacao)
-        * [posicaoValida](#posicaoValida)
-        * [verificaVencedor](#verificaVencedor)
-        * [verificaVelha](#verificaVelha)
-        * [modoJogador](#modoJogador)
-        * [jogar](#jogar)
-        * [jogadaUsuario](#jogadaUsuario)    
-    * [Personal](#Personal)
-        * [out](#out)
-        * [valida](#valida)
-        * [coordenadas](#coordenadas)
-        * [reset](#reset)
-        * [restart](#restart)
-        * [programa](#programa)
-* [More](#More)
-    * [Tecnologies](#Tecnologies)
-    * [Original Language](#Original-Language)
-    * [Latest Update](#Latest-Update) 
-* [Contact Me](#Contact-Me)
+# Project
+
+<details>
+<summary><a href="#About">About</a></summary>
+
+* [Reason](#Reason)
+* [Goal](#Goal)
+</details>
+
+<details>
+<summary><a href="#Content">Content</a></summary>
+
+* <details>
+    <summary><a href="#Gamemodes">Gamemodes</a></summary>
+
+    * [Player vs Player](#Player-vs-Player)
+    * [Player vs Machine (easy)](#Player-vs-Machine-easy)
+
+* <details>
+    <summary><a href="#Mandatory">Mandatory</a></summary>
+
+    * [inicializarTabuleiro](#inicializarTabuleiro)
+    * [imprimirTabuleiro](#imprimirTabuleiro)
+    * [imprimeMenuPrincipal](#imprimeMenuPrincipal)
+    * [leiaCoordenadaLinha](#leiaCoordenadaLinha)
+    * [leiaCoordenadaColuna](#leiaCoordenadaColuna)
+    * [imprimePontuacao](#imprimePontuacao)
+    * [posicaoValida](#posicaoValida)
+    * [verificaVencedor](#verificaVencedor)
+    * [verificaVelha](#verificaVelha)
+    * [modoJogador](#modoJogador)
+    * [jogar](#jogar)
+    * [jogadaUsuario](#jogadaUsuario)  
+
+* <details>
+    <summary><a href="#Personal">Personal</a></summary>
+
+    * [out](#out)
+    * [valida](#valida)
+    * [coordenadas](#coordenadas)
+    * [reset](#reset)
+    * [restart](#restart)
+    * [programa](#programa)
+    
+
+</details>
+</details>
+
+<details>
+<summary><a href="#More">More</a></summary>
+
+* [Tecnologies](#Tecnologies)
+* [Original Language](#Original-Language)
+* [Latest Update](#Latest-Update) 
+</details>
+
+<details>
+<summary><a href="#Contact-Me">Contact Me</a></summary>
+
+* [LinkedIn](#LinkedIn)
+* [Email](#Email)
+</details>
 
 # About
 * The board must be a 3X3 matrix;
@@ -59,7 +88,7 @@ List of available gamemodes:
 ### Player-vs-Machine-easy
 * In this mode, the player must play against the machine;
 * As it is the easy mode, the machine has no strategy, that is, it will play randomly in the positions that are available on the board.
-<h4 align="center">🚧 Functionality Under Construction 🚧</h4>
+<h2 align="center">🚧 Functionality Under Construction 🚧</h2>
 
 ## Mandatory
 List of mandatory functions:
@@ -119,11 +148,15 @@ More information about his project:
 * Oct/01/2022
 ---
 Made with tenacity by Mateus Leme
+
 ## Contact-Me
-<h3>
-<img alt="LinkedIn" title="LinkedIn" src="./github/img/linkedin.png" width="15vw" height="15vh">
-<a href="https://www.linkedin.com/in/mateus-da-costa-leme-35a5ab235/">LinkedIn</a>
-</h3>
+
+### LinkedIn
+* <img alt="LinkedIn" title="LinkedIn" src="./github/img/linkedin.png" width="20vw" height="20vh"> <a href="https://www.linkedin.com/in/mateus-da-costa-leme-35a5ab235/">Mateus da Costa Leme</a>
+
+### Email
+* <img alt="Gmail" title="Gmail" src="./github/img/gmail.png" width="27vw" height="17vh"> <a href="mateusdacostaleme@gmail.com">Mateus da Costa Leme</a>
+
 
 
 <!--<h4 align="center">
